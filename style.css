@@ -1,0 +1,32 @@
+body {
+  font-family: Arial;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+a, button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background: #00c853;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+}
+.premium img {
+  filter: blur(3px);
+}
